@@ -1,0 +1,58 @@
+# ==============================
+# Core Deep Learning Framework
+# ==============================
+tensorflow>=2.13.0,<2.16.0
+keras>=2.13.0
+
+# ==============================
+# Data Processing & Analysis
+# ==============================
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# ==============================
+# Visualization
+# ==============================
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ==============================
+# Image Processing
+# ==============================
+Pillow>=10.0.0
+opencv-python>=4.8.0  # Optional, for advanced image processing
+
+# ==============================
+# GUI (Tkinter is built-in, but these enhance it)
+# ==============================
+# tkinter comes with Python, no installation needed
+
+# ==============================
+# Utilities
+# ==============================
+tqdm>=4.65.0  # Progress bars
+json5>=0.9.14  # Better JSON handling
+
+# ==============================
+# Optional: For GPU Support
+# ==============================
+# tensorflow-gpu>=2.13.0  # Uncomment if using dedicated GPU
+# Note: TensorFlow 2.13+ includes GPU support by default if CUDA is available
+
+# ==============================
+# Optional: For Model Optimization
+# ==============================
+# tensorflow-model-optimization>=0.7.5  # For model quantization/pruning
+
+# ==============================
+# Development Tools (Optional)
+# ==============================
+# jupyter>=1.0.0  # For notebook experimentation
+# ipython>=8.12.0  # Enhanced Python shell
+
+# ==============================
+# Testing (Optional)
+# ==============================
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
